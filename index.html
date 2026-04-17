@@ -8,314 +8,362 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-KYGVW65XLR');
     </script>
-    <!-- End of google tag -->
-    <!-- Meta files -->
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yusuf-Seker</title>
-    <meta name="description"
-        content="Explore Yusuf's software development portfolio, featuring a diverse range of projects that highlight his skills and commitment to excellence in tech.">
-    <meta name="author" content="Yusuf-Seker">
-    <meta name="keywords"
-        content="Software Developer, Yusuf Yusuf-Seker, Javascript, HTML, CSS, Frontend, Frontend Developer">
-    <!-- Links -->
-    <link rel="stylesheet" href="css/main.css ">
+    <title>Yusuf Seker — Portfolio</title>
+    <meta name="description" content="Portfolio van Yusuf Seker — gedreven, leergierig en breed inzetbaar. Actief in software development en op zoek naar nieuwe uitdagingen.">
+    <meta name="author" content="Yusuf Seker">
+    <meta name="keywords" content="Yusuf Seker, Portfolio, Software Developer, Frontend Developer, Beverwijk">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icons & CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+    <link rel="stylesheet" href="css/main.css">
     <link rel="Favicon" href="favicon.ico">
 </head>
 
 <body>
-    <!-- Wrapper - Complete pagina -->
-    <div class="main-content">
-        <div class="wrapper">
-            <!-- Navigatie -->
-            <nav class="menubar">
-                <ul>
-                    <li><a href="#about">[about me]</a></li>
-                    <li><a href="#education">[education]</a></li>
-                    <li><a href="#projects">[projects]</a></li>
-                    <li><a href="#contact">[contact]</a></li>
-                </ul>
-            </nav>
-            <!-- Topbar - Profile -->
-            <div class="header" id="header">
-                <div class="buttonheartbeat">
-                    <div class="profile-picture">
-                        <img src="img/profilepic_alt.png" alt="Yusuf's profile picture">
-                    </div>
-                </div>
-                <h1 class="name">Yusuf Seker</h1>
-                <p class="frontend">Frontend Developer</p>
-                <div class="social-links"> <!-- Profile-Links -->
-                    <span class="git"><a href="https://github.com/yusufskr" target="_blank"><i
-                                class="ti ti-brand-github"></i></a></span>
-                    <span class="mail"><a href="mailto:188662@novacollege.nl" target="_blank"><i
-                                class="ti ti-mail"></i></a></span>
-                    <span class="mail"><a href="tel:0638085841" target="_blank"><i class="ti ti-phone"></i></a></span>
-                    <span class="mail"><a href="Yusuf CV.pdf" target="_blank"><i class="ti ti-file-cv"></i></a></span>
-                </div>
-            </div>
-            <!-- Skills & Vaardigheden (Talen)-->
-            <div class="work-exp">
-                <h3 class="current-projects" id="about">👨‍💻 About me</h3>
-                <hr>
-                <h4>• Education</h4>
-                <p>I am currently studying <span>Software Development</span> at <a class="novacollege"
-                        href="https://www.novacollege.nl/" target="_blank">ROC Nova College</a> in Beverwijk. I plan to
-                    complete the course this year and pursue a full-time career as a Software Developer/Engineer.</p>
-                <br>
-                <h4>• Skills</h4>
-                <p> I have basic knowledge of the following programming languages and technologies:</p>
-                <div class="skills">
-                    <p><i class="ti ti-file-type-js"></i> Javascript</p>
-                    <p><i class="ti ti-file-type-php"></i> PHP</p>
-                    <p><i class="ti ti-brand-c-sharp"></i> CSharp</p>
-                    <p><i class="ti ti-file-type-sql"></i> MySQL</p>
-                    <p><i class="ti ti-file-type-html"></i> HTML</p>
-                    <p><i class="ti ti-file-type-css"></i> CSS</p>
-                    <p><i class="ti ti-brand-python"></i> Python</p>
-                </div>
-                <br> <!--Normale talen -->
-                <h4>• Languages</h4>
-                <br>
-                <div class="languages-grid">
-                    <div class="language-item">
-                        <span class="language-name">Dutch</span>
-                        <div class="progress-bar">
-                            <div class="progress-fill dutch" title="Fluent"></div>
-                        </div>
-                    </div>
-                    <div class="language-item">
-                        <span class="language-name">English</span>
-                        <div class="progress-bar">
-                            <div class="progress-fill english" title="Professional"></div>
-                        </div>
-                    </div>
 
-                    <div class="language-item">
-                        <span class="language-name">Turkish</span>
-                        <div class="progress-bar">
-                            <div class="progress-fill turkish" title="professional"></div>
-                        </div>
-                    </div>
-                </div>
-                <br>
+    <!-- Noise overlay -->
+    <div class="noise"></div>
 
-                <!-- Personelijke bio-->
-                <h4>• Hobby's</h4>
-                <p>In my free time, I enjoy working on coding projects where I can experiment with new ideas and
-                    continue developing my skills. I also dedicate time to my work, because I find it important to keep
-                    learning and challenging myself. Besides that, I like going to the gym💪 to stay fit and push my
-                    limits physically, and I always enjoy spending quality time with my friends, whether that’s relaxing
-                    together or doing something more active.</p>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">YS<span class="accent">.</span></a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
             </div>
-            <h3 class="current-projects" id="education">📚 Education & Work Experience</h3>
-            <hr>
-            <h4>• Software Development</h4>
-            <div class="education-work">
-                <p>I am currently pursuing my education as a software developer and haven't had professional work
-                    experience in the field yet. I'm eagerly looking forward to my second internship opportunity to gain
-                    practical experience and apply my skills in a real-world setting.</p>
-                <p>While I may not have professional experience, I've been actively building projects and expanding my
-                    knowledge in various programming languages and technologies.</p>
-            </div>
-            <!-- Werk ervaring -->
-            <h4> • Other Work Experience</h4>
-            <div class="education-work">
-                <div class="work-item">
-                    <img src="Tata steel logo.png" alt="Tata Steel logo" class="company-logo">
-                    <div class="work-content">
-                        <h5>Logestiek Medewerker - TATA STEEL, IJmuiden</h5>
-                        <p style="font-size: 12px; color: grey; margin-top: -20px">November 2023 - present</p>
-                        <p style="font-size: 12px; font-style: italic; color: grey; margin-top: -10px">I currently work
-                            at Tata Steel as a logistic employee alongside my studies.</p>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <img src="mes's burger factory logo.png" alt="Mes's Burger Factory logo" class="company-logo">
-                    <div class="work-content">
-                        <h5>Team leider - Mes's Burger Factory, Beverwijk</h5>
-                        <p style="font-size: 12px; color: grey; margin-top: -20px">February 2020 - October 2023</p>
-                        <p style="font-size: 12px; font-style: italic; color: grey; margin-top: -10px">I worked as a
-                            team leader and all-round employee at a local restaurant for almost four years. During this
-                            time, I gained valuable experience in teamwork, customer service, and training and managing
-                            new crew members.</p>
-                    </div>
-                </div>
-                <div class="work-item">
-                    <img src="rkvv dem logo.jpg" alt="RKVV DEM logo" class="company-logo">
-                    <div class="work-content">
-                        <h5>Trainer/Coach - RKVV DEM, Beverwijk</h5>
-                        <p style="font-size: 12px; color: grey; margin-top: -20px">November 2022 - June 2024</p>
-                        <p style="font-size: 12px; font-style: italic; color: grey; margin-top: -10px">At RKVV DEM, I
-                            both played football and provided training. I also coached a full team, which taught me
-                            responsibility and leadership.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Momentele projecten -->
-            <h3 class="current-projects" id="projects">📝 Current projects</h3>
-            <hr>
-            <!-- <p class="projects"><a href="#" target="_blank"></a></p> -->
-            <p style="color: grey; font-style: italic; position: relative; top: -15px;">I am currently not working on
-                any project related to frontend development. Check out my previous project down below!</p>
-            <br>
-            <h3 class="current-projects">🏗️ Projects</h3>
-            <hr>
-            <!-- Oude projecten -->
-            <div class="carousel">
-                <button class="carousel-arrow left-arrow"><i class="ti ti-chevron-left"></i></button>
-                <div class="carousel-track">
-                    <div class="project-card">
-                        <div class="project-card-header">
-                            <img src="img/fileexplorer.png" alt="PHP File explorer" class="project-img">
-                        </div>
+            <a href="Yusuf CV.pdf" target="_blank" class="nav-cta">Download CV</a>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
 
-                        <!-- FILE EXPLORER -->
-                        <div class="project-card-body">
-                            <h3 class="project-title">File Explorer</h3>
-                            <p class="project-desc">A website that allows you to browse and manage files directly within
-                                your web browser.</p>
-                            <div class="project-tags">
-                                <span>PHP</span>
-                                <span>HTML</span>
-                                <span>CSS</span>
-                            </div>
-                            <div class="project-actions">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- MOVIE MENTOR -->
-                    <div class="project-card">
-                        <div class="project-card-header">
-                            <img src="img/moviementor.png" alt="Movie Mentor movie searching application"
-                                class="project-img">
-                        </div>
-                        <div class="project-card-body">
-                            <h3 class="project-title">Movie Mentor</h3>
-                            <p class="project-desc">A website to search for movies and video games, providing
-                                comprehensive details and insights about each title.</p>
-                            <div class="project-tags">
-                                <span><i class="ti ti-file-type-js"></i> JS</span>
-                                <span><i class="ti ti-file-type-html"></i> HTML</span>
-                                <span><i class="ti ti-file-type-css"></i> CSS</span>
-                            </div>
-                            <div class="project-actions">
-                                <a href="https://moviesmentor.netlify.app" class="btn demo-btn" target="_blank"><i
-                                        class="ti ti-external-link"></i> Live Demo</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- OVEN EXPERT -->
-                    <div class="project-card">
-                        <div class="project-card-header">
-                            <img src="img/ovenexpert.gif" alt="Oven Expert" class="project-img">
-                        </div>
-                        <div class="project-card-body">
-                            <h3 class="project-title">OvenExpert</h3>
-                            <p class="project-desc">I created this website for a client looking to promote his cleaning
-                                service more widely.</p>
-                            <div class="project-tags">
-                                <span><i class="ti ti-file-type-js"></i> JS</span>
-                                <span><i class="ti ti-file-type-html"></i> HTML</span>
-                                <span><i class="ti ti-file-type-css"></i> CSS</span>
-                            </div>
-                            <div class="project-actions">
-                                <a href="https://ovenexpert.nl" class="btn demo-btn" target="_blank"><i
-                                        class="ti ti-external-link"></i> go to website</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- BLACKJACK -->
-                    <div class="project-card">
-                        <div class="project-card-header">
-                            <img src="img/blackjack.png" alt="Blackjack Game" class="project-img"
-                                style="object-fit: contain; background-color: #202020;">
-                        </div>
-                        <div class="project-card-body">
-                            <h3 class="project-title">Blackjack</h3>
-                            <p class="project-desc">A Blackjack game created for a school assignment using Java and
-                                Swing.
-                                Realized using an Object-Oriented (OOP) approach and designed with activity diagrams.
-                                Includes dealer logic that draws until 17.</p>
-                            <div class="project-tags">
-                                <span>Java</span>
-                                <span>Swing</span>
-                                <span>OOP</span>
-                            </div>
-                            <div class="project-actions">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-arrow right-arrow"><i class="ti ti-chevron-right"></i></button>
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="Yusuf CV.pdf" target="_blank" class="nav-cta">Download CV</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge reveal">Open to new opportunities</div>
+            <h1 class="hero-title reveal">
+                <span class="hero-greeting">Hi, I'm</span>
+                <span class="hero-name">Yusuf Seker</span>
+                <span class="hero-role">Driven &amp; <span class="accent">Ambitious</span></span>
+            </h1>
+            <p class="hero-desc reveal">Software Development student at ROC Nova College, Beverwijk. Detail-oriented, eager to learn, and always looking for new challenges — in tech and beyond.</p>
+            <div class="hero-actions reveal">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
             </div>
-            <!-- End new projects carousel -->
-            <!-- Contact gegevens -->
-            <h3 class="current-projects" id="contact">📬 Contact Me</h3>
-            <hr>
-            <div class="contact-section">
-                <p>Feel free to reach out to me through any of the following channels:</p>
-                <div class="contact-grid">
-                    <a class="contact-card" href="mailto:188662@novacollege.nl">
-                        <i class="ti ti-mail"></i>
-                        <h4>Email</h4>
-                        <span>188662@novacollege.nl</span>
-                    </a>
-                    <a class="contact-card" href="tel:0638085841">
-                        <i class="ti ti-phone-ringing"></i>
-                        <h4>Phone</h4>
-                        <span>+31 6 38085841</span>
-                    </a>
-                    <a class="contact-card" href="https://github.com/yusufskr" target="_blank"
-                        rel="noopener noreferrer">
-                        <i class="ti ti-brand-github"></i>
-                        <h4>GitHub</h4>
-                        <span>@yusufskr</span>
-                    </a>
-                    <a class="contact-card" href="https://instagram.com/yusufseker__/" target="_blank"
-                        rel="noopener noreferrer">
-                        <i class="ti ti-brand-instagram"></i>
-                        <h4>Instagram</h4>
-                        <span>@yusufseker__</span>
-                    </a>
+            <div class="hero-social reveal">
+                <a href="https://github.com/yusufskr" target="_blank" aria-label="GitHub"><i class="ti ti-brand-github"></i></a>
+                <a href="mailto:188662@novacollege.nl" aria-label="Email"><i class="ti ti-mail"></i></a>
+                <a href="tel:0638085841" aria-label="Phone"><i class="ti ti-phone"></i></a>
+                <a href="https://instagram.com/yusufseker__/" target="_blank" aria-label="Instagram"><i class="ti ti-brand-instagram"></i></a>
+            </div>
+        </div>
+        <div class="hero-visual reveal">
+            <div class="hero-img-wrapper">
+                <img src="img/profilepic_alt.png" alt="Yusuf Seker" class="hero-img">
+                <div class="hero-img-ring"></div>
+                <div class="hero-img-ring ring-2"></div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">4+</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Languages</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Years Work</span>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Geheim menu - Profile -->
-    <div class="profile-info hidden">
-        <div class="profile-info-box">
-            <div class="profile-picture">
-                <img src="img/profilepic_alt.png" alt="Yusuf profile picture">
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-label reveal">About Me</div>
+            <h2 class="section-title reveal">Motivated, detail-oriented<br>&amp; always growing</h2>
+
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>I am currently studying <strong>Software Development</strong> at <a href="https://www.novacollege.nl/" target="_blank">ROC Nova College</a> in Beverwijk, where I'm developing a broad set of technical and problem-solving skills.</p>
+                    <p>I'm someone who picks things up quickly, works well under pressure, and enjoys collaborating in a team. I'm driven by curiosity and always looking to grow — whether that's in tech or anything else that challenges me.</p>
+                    <p>Outside of studying I go to the gym regularly, enjoy spending time with friends, and work on personal projects to keep improving.</p>
+                </div>
+
+                <div class="about-details">
+                    <div class="detail-card reveal">
+                        <i class="ti ti-map-pin"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Beverwijk, Netherlands</p>
+                        </div>
+                    </div>
+                    <div class="detail-card reveal">
+                        <i class="ti ti-school"></i>
+                        <div>
+                            <h4>Education</h4>
+                            <p>ROC Nova College</p>
+                        </div>
+                    </div>
+                    <div class="detail-card reveal">
+                        <i class="ti ti-cake"></i>
+                        <div>
+                            <h4>Age</h4>
+                            <p>20 years old</p>
+                        </div>
+                    </div>
+                    <div class="detail-card reveal">
+                        <i class="ti ti-heart"></i>
+                        <div>
+                            <h4>Hobbies</h4>
+                            <p>Coding, Gym, Friends</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="profile-details">
-                <h1 class="name">Yusuf Seker</h1>
-                <p class="location">&#128205 <a href="https://www.google.com/search?client=firefox-b-d&q=Beverwijk"
-                        target="_blank">Beverwijk</a></p>
-                <p class="seperator">│</p>
-                <p class="age">20 years old</p>
-                <blockquote class="quote"><a>I'm a passionate developer, always looking for new challenges and
-                        opportunities to learn.</a></blockquote>
+
+            <!-- Skills -->
+            <div class="skills-section">
+                <h3 class="subsection-title reveal">Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-chip reveal"><i class="ti ti-file-type-js"></i> JavaScript</div>
+                    <div class="skill-chip reveal"><i class="ti ti-file-type-php"></i> PHP</div>
+                    <div class="skill-chip reveal"><i class="ti ti-brand-c-sharp"></i> C#</div>
+                    <div class="skill-chip reveal"><i class="ti ti-file-type-sql"></i> MySQL</div>
+                    <div class="skill-chip reveal"><i class="ti ti-file-type-html"></i> HTML</div>
+                    <div class="skill-chip reveal"><i class="ti ti-file-type-css"></i> CSS</div>
+                    <div class="skill-chip reveal"><i class="ti ti-brand-python"></i> Python</div>
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="languages-section">
+                <h3 class="subsection-title reveal">Languages</h3>
+                <div class="lang-bars">
+                    <div class="lang-item reveal">
+                        <div class="lang-header">
+                            <span class="lang-name">Dutch</span>
+                            <span class="lang-pct">95%</span>
+                        </div>
+                        <div class="lang-track"><div class="lang-fill" data-width="95"></div></div>
+                    </div>
+                    <div class="lang-item reveal">
+                        <div class="lang-header">
+                            <span class="lang-name">English</span>
+                            <span class="lang-pct">85%</span>
+                        </div>
+                        <div class="lang-track"><div class="lang-fill" data-width="85"></div></div>
+                    </div>
+                    <div class="lang-item reveal">
+                        <div class="lang-header">
+                            <span class="lang-name">Turkish</span>
+                            <span class="lang-pct">75%</span>
+                        </div>
+                        <div class="lang-track"><div class="lang-fill" data-width="75"></div></div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- Footer links -->
+    </section>
+
+    <!-- Experience -->
+    <section class="section section-alt" id="experience">
+        <div class="container">
+            <div class="section-label reveal">Experience</div>
+            <h2 class="section-title reveal">Education & Work</h2>
+
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <img src="Tata steel logo.png" alt="Tata Steel" class="timeline-logo">
+                            <div>
+                                <h4>Logistiek Medewerker</h4>
+                                <p class="timeline-company">Tata Steel, IJmuiden</p>
+                                <p class="timeline-date">November 2023 — Present</p>
+                            </div>
+                        </div>
+                        <p class="timeline-desc">Currently working as a logistics employee alongside my studies.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <img src="rkvv dem logo.jpg" alt="RKVV DEM" class="timeline-logo">
+                            <div>
+                                <h4>Trainer / Coach</h4>
+                                <p class="timeline-company">RKVV DEM, Beverwijk</p>
+                                <p class="timeline-date">November 2022 — June 2024</p>
+                            </div>
+                        </div>
+                        <p class="timeline-desc">Played football and provided training. Also coached a full team, which taught me responsibility and leadership.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <img src="mes's burger factory logo.png" alt="Mes's Burger Factory" class="timeline-logo">
+                            <div>
+                                <h4>Team Leader</h4>
+                                <p class="timeline-company">Mes's Burger Factory, Beverwijk</p>
+                                <p class="timeline-date">February 2020 — October 2023</p>
+                            </div>
+                        </div>
+                        <p class="timeline-desc">Worked as a team leader and all-round employee for almost four years. Gained valuable experience in teamwork, customer service, and managing new crew members.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-label reveal">Portfolio</div>
+            <h2 class="section-title reveal">Featured Projects</h2>
+
+            <div class="projects-grid">
+                <!-- OvenExpert -->
+                <div class="project-card reveal">
+                    <div class="project-img-wrap">
+                        <img src="img/ovenexpert.gif" alt="OvenExpert" class="project-img">
+                        <div class="project-overlay">
+                            <a href="https://ovenexpert.nl" target="_blank" class="btn btn-small">Visit Site <i class="ti ti-external-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3>OvenExpert</h3>
+                        <p>Created for a client looking to promote his oven cleaning service more widely online.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span><span>HTML</span><span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movie Mentor -->
+                <div class="project-card reveal">
+                    <div class="project-img-wrap">
+                        <img src="img/moviementor.png" alt="Movie Mentor" class="project-img">
+                        <div class="project-overlay">
+                            <a href="https://moviesmentor.netlify.app" target="_blank" class="btn btn-small">Live Demo <i class="ti ti-external-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Movie Mentor</h3>
+                        <p>A website to search for movies and video games, providing comprehensive details about each title.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span><span>HTML</span><span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- File Explorer -->
+                <div class="project-card reveal">
+                    <div class="project-img-wrap">
+                        <img src="img/fileexplorer.png" alt="File Explorer" class="project-img">
+                    </div>
+                    <div class="project-body">
+                        <h3>File Explorer</h3>
+                        <p>A website that allows you to browse and manage files directly within your web browser.</p>
+                        <div class="project-tags">
+                            <span>PHP</span><span>HTML</span><span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blackjack -->
+                <div class="project-card reveal">
+                    <div class="project-img-wrap">
+                        <img src="img/blackjack.png" alt="Blackjack" class="project-img" style="object-fit: contain; background: #1e293b;">
+                    </div>
+                    <div class="project-body">
+                        <h3>Blackjack</h3>
+                        <p>A Blackjack game built for a school assignment using Java and Swing with OOP approach and dealer logic.</p>
+                        <div class="project-tags">
+                            <span>Java</span><span>Swing</span><span>OOP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <div class="section-label reveal">Contact</div>
+            <h2 class="section-title reveal">Let's work together</h2>
+            <p class="section-subtitle reveal">Feel free to reach out through any of the following channels.</p>
+
+            <div class="contact-grid">
+                <a class="contact-card reveal" href="mailto:188662@novacollege.nl">
+                    <i class="ti ti-mail"></i>
+                    <h4>Email</h4>
+                    <span>188662@novacollege.nl</span>
+                </a>
+                <a class="contact-card reveal" href="tel:0638085841">
+                    <i class="ti ti-phone"></i>
+                    <h4>Phone</h4>
+                    <span>+31 6 38085841</span>
+                </a>
+                <a class="contact-card reveal" href="https://github.com/yusufskr" target="_blank">
+                    <i class="ti ti-brand-github"></i>
+                    <h4>GitHub</h4>
+                    <span>@yusufskr</span>
+                </a>
+                <a class="contact-card reveal" href="https://instagram.com/yusufseker__/" target="_blank">
+                    <i class="ti ti-brand-instagram"></i>
+                    <h4>Instagram</h4>
+                    <span>@yusufseker__</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-links">
-                <a href="#header">Home</a>
-                <div class="download-cv"><a href="Yusuf CV.pdf" target="_blank">Download CV</a></div>
-                <a href="mailto:188662@novacollege.nl">Contact</a>
+        <div class="container">
+            <div class="footer-inner">
+                <a href="#hero" class="footer-logo">YS<span class="accent">.</span></a>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <p class="footer-copy">&copy; 2025 Yusuf Seker. All rights reserved.</p>
             </div>
-            <p class="footer-text">© 2025 Yusuf Seker. All rights reserved.</p>
-
         </div>
     </footer>
-    <!-- Javascript -->
+
     <script src="script.js"></script>
 </body>
 
