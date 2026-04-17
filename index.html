@@ -1,370 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYGVW65XLR"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+        function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-KYGVW65XLR');
     </script>
-    <!-- Meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yusuf Seker — Portfolio</title>
-    <meta name="description" content="Portfolio van Yusuf Seker — gedreven, leergierig en breed inzetbaar. Actief in software development en op zoek naar nieuwe uitdagingen.">
-    <meta name="author" content="Yusuf Seker">
-    <meta name="keywords" content="Yusuf Seker, Portfolio, Software Developer, Frontend Developer, Beverwijk">
-    <!-- Fonts -->
+    <title>Yusuf Seker</title>
+    <meta name="description" content="Portfolio van Yusuf Seker — software developer, gedreven en breed inzetbaar.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <!-- Icons & CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"/>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="Favicon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico">
 </head>
-
 <body>
 
-    <!-- Noise overlay -->
-    <div class="noise"></div>
+<!-- NAV -->
+<nav class="nav">
+    <a href="#" class="nav-logo">Seker<span>.</span></a>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="Yusuf CV.pdf" target="_blank" class="nav-cv">CV <i class="ti ti-download"></i></a>
+    <button class="nav-burger"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="Yusuf CV.pdf" target="_blank">Download CV</a>
+</div>
 
-    <!-- Navigation -->
-    <nav class="nav" id="nav">
-        <div class="nav-inner">
-            <a href="#" class="nav-logo">YS<span class="accent">.</span></a>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#experience">Experience</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </div>
-            <a href="Yusuf CV.pdf" target="_blank" class="nav-cta">Download CV</a>
-            <button class="nav-toggle" aria-label="Toggle menu">
-                <span></span><span></span><span></span>
-            </button>
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-top">
+        <div class="hero-name-block">
+            <span class="hero-eyebrow">Frontend Developer · Beverwijk</span>
+            <h1>Yusuf<br><span>Seker</span></h1>
         </div>
-    </nav>
-
-    <!-- Mobile menu -->
-    <div class="mobile-menu">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-        <a href="Yusuf CV.pdf" target="_blank" class="nav-cta">Download CV</a>
+        <div class="hero-photo-block">
+            <img src="img/profilepic_alt.png" alt="Yusuf Seker">
+        </div>
     </div>
+    <div class="hero-bottom">
+        <div class="hero-desc">
+            <p>Snel lerend, teamgericht en breed inzetbaar. Open voor nieuwe kansen en uitdagingen.</p>
+        </div>
+        <div class="hero-numbers">
+            <div class="num-item"><b>20</b><span>jaar</span></div>
+            <div class="divider"></div>
+            <div class="num-item"><b>3</b><span>talen</span></div>
+        </div>
+        <div class="hero-socials">
+            <a href="https://github.com/yusufskr" target="_blank"><i class="ti ti-brand-github"></i></a>
+            <a href="mailto:yusufs27@hotmail.com"><i class="ti ti-mail"></i></a>
+            <a href="tel:0638085841"><i class="ti ti-phone"></i></a>
+            <a href="https://instagram.com/yusufseker__/" target="_blank"><i class="ti ti-brand-instagram"></i></a>
+        </div>
+    </div>
+</section>
 
-    <!-- Hero -->
-    <section class="hero" id="hero">
-        <div class="hero-content">
-            <div class="hero-badge reveal">Open to new opportunities</div>
-            <h1 class="hero-title reveal">
-                <span class="hero-greeting">Hi, I'm</span>
-                <span class="hero-name">Yusuf Seker</span>
-                <span class="hero-role">Driven &amp; <span class="accent">Ambitious</span></span>
-            </h1>
-            <p class="hero-desc reveal">Software Development student at ROC Nova College, Beverwijk. Detail-oriented, eager to learn, and always looking for new challenges — in tech and beyond.</p>
-            <div class="hero-actions reveal">
-                <a href="#projects" class="btn btn-primary">View My Work</a>
-                <a href="#contact" class="btn btn-outline">Get In Touch</a>
-            </div>
-            <div class="hero-social reveal">
-                <a href="https://github.com/yusufskr" target="_blank" aria-label="GitHub"><i class="ti ti-brand-github"></i></a>
-                <a href="mailto:188662@novacollege.nl" aria-label="Email"><i class="ti ti-mail"></i></a>
-                <a href="tel:0638085841" aria-label="Phone"><i class="ti ti-phone"></i></a>
-                <a href="https://instagram.com/yusufseker__/" target="_blank" aria-label="Instagram"><i class="ti ti-brand-instagram"></i></a>
+<!-- MAIN GRID -->
+<main class="main-grid">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <!-- Skills -->
+        <div class="card" id="about">
+            <h2 class="card-title">Skills</h2>
+            <div class="skill-list">
+                <div class="skill-row"><span>JavaScript</span><div class="sbar"><div style="width:80%"></div></div></div>
+                <div class="skill-row"><span>TypeScript</span><div class="sbar"><div style="width:60%"></div></div></div>
+                <div class="skill-row"><span>HTML / CSS</span><div class="sbar"><div style="width:90%"></div></div></div>
+                <div class="skill-row"><span>PHP</span><div class="sbar"><div style="width:65%"></div></div></div>
+                <div class="skill-row"><span>MySQL</span><div class="sbar"><div style="width:60%"></div></div></div>
+                <div class="skill-row"><span>C#</span><div class="sbar"><div style="width:55%"></div></div></div>
+                <div class="skill-row"><span>Python</span><div class="sbar"><div style="width:50%"></div></div></div>
             </div>
         </div>
-        <div class="hero-visual reveal">
-            <div class="hero-img-wrapper">
-                <img src="img/profilepic_alt.png" alt="Yusuf Seker" class="hero-img">
-                <div class="hero-img-ring"></div>
-                <div class="hero-img-ring ring-2"></div>
-            </div>
-            <div class="hero-stats">
-                <div class="stat-item">
-                    <span class="stat-number">4+</span>
-                    <span class="stat-label">Projects</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">3</span>
-                    <span class="stat-label">Languages</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">5+</span>
-                    <span class="stat-label">Years Work</span>
-                </div>
+
+        <!-- Languages -->
+        <div class="card">
+            <h2 class="card-title">Languages</h2>
+            <div class="skill-list">
+                <div class="skill-row"><span>Dutch</span><div class="sbar"><div style="width:95%"></div></div></div>
+                <div class="skill-row"><span>English</span><div class="sbar"><div style="width:85%"></div></div></div>
+                <div class="skill-row"><span>Turkish</span><div class="sbar"><div style="width:75%"></div></div></div>
             </div>
         </div>
-    </section>
 
-    <!-- About -->
-    <section class="section" id="about">
-        <div class="container">
-            <div class="section-label reveal">About Me</div>
-            <h2 class="section-title reveal">Motivated, detail-oriented<br>&amp; always growing</h2>
-
-            <div class="about-grid">
-                <div class="about-text reveal">
-                    <p>I am currently studying <strong>Software Development</strong> at <a href="https://www.novacollege.nl/" target="_blank">ROC Nova College</a> in Beverwijk, where I'm developing a broad set of technical and problem-solving skills.</p>
-                    <p>I'm someone who picks things up quickly, works well under pressure, and enjoys collaborating in a team. I'm driven by curiosity and always looking to grow — whether that's in tech or anything else that challenges me.</p>
-                    <p>Outside of studying I go to the gym regularly, enjoy spending time with friends, and work on personal projects to keep improving.</p>
-                </div>
-
-                <div class="about-details">
-                    <div class="detail-card reveal">
-                        <i class="ti ti-map-pin"></i>
-                        <div>
-                            <h4>Location</h4>
-                            <p>Beverwijk, Netherlands</p>
-                        </div>
-                    </div>
-                    <div class="detail-card reveal">
-                        <i class="ti ti-school"></i>
-                        <div>
-                            <h4>Education</h4>
-                            <p>ROC Nova College</p>
-                        </div>
-                    </div>
-                    <div class="detail-card reveal">
-                        <i class="ti ti-cake"></i>
-                        <div>
-                            <h4>Age</h4>
-                            <p>20 years old</p>
-                        </div>
-                    </div>
-                    <div class="detail-card reveal">
-                        <i class="ti ti-heart"></i>
-                        <div>
-                            <h4>Hobbies</h4>
-                            <p>Coding, Gym, Friends</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Skills -->
-            <div class="skills-section">
-                <h3 class="subsection-title reveal">Technical Skills</h3>
-                <div class="skills-grid">
-                    <div class="skill-chip reveal"><i class="ti ti-file-type-js"></i> JavaScript</div>
-                    <div class="skill-chip reveal"><i class="ti ti-file-type-php"></i> PHP</div>
-                    <div class="skill-chip reveal"><i class="ti ti-brand-c-sharp"></i> C#</div>
-                    <div class="skill-chip reveal"><i class="ti ti-file-type-sql"></i> MySQL</div>
-                    <div class="skill-chip reveal"><i class="ti ti-file-type-html"></i> HTML</div>
-                    <div class="skill-chip reveal"><i class="ti ti-file-type-css"></i> CSS</div>
-                    <div class="skill-chip reveal"><i class="ti ti-brand-python"></i> Python</div>
-                </div>
-            </div>
-
-            <!-- Languages -->
-            <div class="languages-section">
-                <h3 class="subsection-title reveal">Languages</h3>
-                <div class="lang-bars">
-                    <div class="lang-item reveal">
-                        <div class="lang-header">
-                            <span class="lang-name">Dutch</span>
-                            <span class="lang-pct">95%</span>
-                        </div>
-                        <div class="lang-track"><div class="lang-fill" data-width="95"></div></div>
-                    </div>
-                    <div class="lang-item reveal">
-                        <div class="lang-header">
-                            <span class="lang-name">English</span>
-                            <span class="lang-pct">85%</span>
-                        </div>
-                        <div class="lang-track"><div class="lang-fill" data-width="85"></div></div>
-                    </div>
-                    <div class="lang-item reveal">
-                        <div class="lang-header">
-                            <span class="lang-name">Turkish</span>
-                            <span class="lang-pct">75%</span>
-                        </div>
-                        <div class="lang-track"><div class="lang-fill" data-width="75"></div></div>
-                    </div>
-                </div>
+        <!-- Info -->
+        <div class="card">
+            <h2 class="card-title">Info</h2>
+            <div class="info-rows">
+                <div class="info-row"><i class="ti ti-map-pin"></i><span>Beverwijk, NL</span></div>
+                <div class="info-row"><i class="ti ti-school"></i><span>ROC Nova College</span></div>
+                <div class="info-row"><i class="ti ti-briefcase"></i><span>Software Development</span></div>
+                <div class="info-row"><i class="ti ti-heart"></i><span>Gym · Friends</span></div>
+                <div class="info-row"><i class="ti ti-cake"></i><span>20 jaar oud</span></div>
             </div>
         </div>
-    </section>
 
-    <!-- Experience -->
-    <section class="section section-alt" id="experience">
-        <div class="container">
-            <div class="section-label reveal">Experience</div>
-            <h2 class="section-title reveal">Education & Work</h2>
+        <!-- Contact sidebar -->
+        <div class="card">
+            <h2 class="card-title">Contact</h2>
+            <div class="info-rows">
+                <a class="info-row link-row" href="mailto:yusufs27@hotmail.com"><i class="ti ti-mail"></i><span>yusufs27@hotmail.com</span></a>
+                <a class="info-row link-row" href="tel:0638085841"><i class="ti ti-phone"></i><span>+31 6 38085841</span></a>
+                <a class="info-row link-row" href="https://github.com/yusufskr" target="_blank"><i class="ti ti-brand-github"></i><span>@yusufskr</span></a>
+                <a class="info-row link-row" href="https://instagram.com/yusufseker__/" target="_blank"><i class="ti ti-brand-instagram"></i><span>@yusufseker__</span></a>
+                <a class="info-row link-row" href="Yusuf CV.pdf" target="_blank"><i class="ti ti-file-cv"></i><span>Download CV</span></a>
+            </div>
+        </div>
 
-            <div class="timeline">
-                <div class="timeline-item reveal">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-card">
-                        <div class="timeline-header">
-                            <img src="Tata steel logo.png" alt="Tata Steel" class="timeline-logo">
-                            <div>
-                                <h4>Logistiek Medewerker</h4>
-                                <p class="timeline-company">Tata Steel, IJmuiden</p>
-                                <p class="timeline-date">November 2023 — Present</p>
-                            </div>
+    </aside>
+
+    <!-- CONTENT -->
+    <div class="content">
+
+        <!-- About -->
+        <div class="card about-card">
+            <h2 class="card-title">About me</h2>
+            <p>Ik studeer momenteel <strong>Software Development</strong> aan ROC Nova College in Beverwijk. Ik plan mijn opleiding dit jaar af te ronden en daarna door te studeren op een hoger niveau.</p>
+            <p>In mijn vrije tijd werk ik graag aan coding projecten waar ik nieuwe ideeën kan uitproberen en mezelf verder kan ontwikkelen. Ik vind het belangrijk om mezelf constant uit te dagen en bij te leren. Daarnaast ga ik regelmatig naar de gym om fit te blijven, en ik geniet altijd van quality time met mijn vrienden — of dat nou relaxen is of iets actiefs doen.</p>
+        </div>
+
+        <!-- Experience -->
+        <div class="card" id="experience">
+            <h2 class="card-title">Education & Experience</h2>
+            <div class="exp-list">
+                <div class="exp-item">
+                    <img src="Untitled.png" alt="Nova College" class="exp-logo nova-logo">
+                    <div class="exp-text">
+                        <div class="exp-head">
+                            <strong>Software Development</strong>
+                            <span>2022 — heden</span>
                         </div>
-                        <p class="timeline-desc">Currently working as a logistics employee alongside my studies.</p>
+                        <p class="exp-co">ROC Nova College, Beverwijk</p>
+                        <p>MBO niveau 4 opleiding Software Development. Focus op webdevelopment, databases en object-georiënteerd programmeren.</p>
                     </div>
                 </div>
-                <div class="timeline-item reveal">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-card">
-                        <div class="timeline-header">
-                            <img src="rkvv dem logo.jpg" alt="RKVV DEM" class="timeline-logo">
-                            <div>
-                                <h4>Trainer / Coach</h4>
-                                <p class="timeline-company">RKVV DEM, Beverwijk</p>
-                                <p class="timeline-date">November 2022 — June 2024</p>
-                            </div>
+                <div class="exp-item">
+                    <img src="Tata steel logo.png" alt="Tata Steel" class="exp-logo">
+                    <div class="exp-text">
+                        <div class="exp-head">
+                            <strong>Logistiek Medewerker</strong>
+                            <span>Nov 2023 — heden</span>
                         </div>
-                        <p class="timeline-desc">Played football and provided training. Also coached a full team, which taught me responsibility and leadership.</p>
+                        <p class="exp-co">Tata Steel, IJmuiden</p>
+                        <p>Logistiek medewerker naast mijn studie bij één van de grootste staalbedrijven van Europa.</p>
                     </div>
                 </div>
-                <div class="timeline-item reveal">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-card">
-                        <div class="timeline-header">
-                            <img src="mes's burger factory logo.png" alt="Mes's Burger Factory" class="timeline-logo">
-                            <div>
-                                <h4>Team Leader</h4>
-                                <p class="timeline-company">Mes's Burger Factory, Beverwijk</p>
-                                <p class="timeline-date">February 2020 — October 2023</p>
-                            </div>
+                <div class="exp-item">
+                    <img src="rkvv dem logo.jpg" alt="RKVV DEM" class="exp-logo">
+                    <div class="exp-text">
+                        <div class="exp-head">
+                            <strong>Trainer &amp; Coach</strong>
+                            <span>Nov 2022 — Jun 2024</span>
                         </div>
-                        <p class="timeline-desc">Worked as a team leader and all-round employee for almost four years. Gained valuable experience in teamwork, customer service, and managing new crew members.</p>
+                        <p class="exp-co">RKVV DEM, Beverwijk</p>
+                        <p>Jeugdteam getraind en gecoacht. Verantwoordelijkheid, leiderschap en communicatie onder druk.</p>
+                    </div>
+                </div>
+                <div class="exp-item">
+                    <img src="mes's burger factory logo.png" alt="Mes's Burger Factory" class="exp-logo">
+                    <div class="exp-text">
+                        <div class="exp-head">
+                            <strong>Teamleider</strong>
+                            <span>Feb 2020 — Okt 2023</span>
+                        </div>
+                        <p class="exp-co">Mes's Burger Factory, Beverwijk</p>
+                        <p>Bijna vier jaar als teamleider. Nieuwe medewerkers ingewerkt, diensten gecoördineerd en klantcontact onderhouden.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
 
-    <!-- Projects -->
-    <section class="section" id="projects">
-        <div class="container">
-            <div class="section-label reveal">Portfolio</div>
-            <h2 class="section-title reveal">Featured Projects</h2>
-
-            <div class="projects-grid">
-                <!-- OvenExpert -->
-                <div class="project-card reveal">
-                    <div class="project-img-wrap">
-                        <img src="img/ovenexpert.gif" alt="OvenExpert" class="project-img">
-                        <div class="project-overlay">
-                            <a href="https://ovenexpert.nl" target="_blank" class="btn btn-small">Visit Site <i class="ti ti-external-link"></i></a>
+        <!-- Projects -->
+        <div class="card" id="projects">
+            <h2 class="card-title">Projects</h2>
+            <div class="proj-grid">
+                <div class="proj-item proj-featured">
+                    <div class="proj-img"><img src="img/ovenexpert.gif" alt="OvenExpert"></div>
+                    <div class="proj-body">
+                        <div class="proj-head">
+                            <strong>OvenExpert</strong>
+                            <a href="https://ovenexpert.nl" target="_blank" class="proj-link"><i class="ti ti-arrow-up-right"></i></a>
                         </div>
-                    </div>
-                    <div class="project-body">
-                        <h3>OvenExpert</h3>
-                        <p>Created for a client looking to promote his oven cleaning service more widely online.</p>
-                        <div class="project-tags">
-                            <span>JavaScript</span><span>HTML</span><span>CSS</span>
-                        </div>
+                        <p>Klantenwebsite voor een ovenreinigingsbedrijf.</p>
+                        <div class="tags"><span>JS</span><span>HTML</span><span>CSS</span></div>
                     </div>
                 </div>
-
-                <!-- Movie Mentor -->
-                <div class="project-card reveal">
-                    <div class="project-img-wrap">
-                        <img src="img/moviementor.png" alt="Movie Mentor" class="project-img">
-                        <div class="project-overlay">
-                            <a href="https://moviesmentor.netlify.app" target="_blank" class="btn btn-small">Live Demo <i class="ti ti-external-link"></i></a>
+                <div class="proj-item">
+                    <div class="proj-img"><img src="img/moviementor.png" alt="Movie Mentor"></div>
+                    <div class="proj-body">
+                        <div class="proj-head">
+                            <strong>Movie Mentor</strong>
+                            <a href="https://moviesmentor.netlify.app" target="_blank" class="proj-link"><i class="ti ti-arrow-up-right"></i></a>
                         </div>
-                    </div>
-                    <div class="project-body">
-                        <h3>Movie Mentor</h3>
-                        <p>A website to search for movies and video games, providing comprehensive details about each title.</p>
-                        <div class="project-tags">
-                            <span>JavaScript</span><span>HTML</span><span>CSS</span>
-                        </div>
+                        <p>Films &amp; games zoeken met uitgebreide info.</p>
+                        <div class="tags"><span>JS</span><span>HTML</span><span>CSS</span></div>
                     </div>
                 </div>
-
-                <!-- File Explorer -->
-                <div class="project-card reveal">
-                    <div class="project-img-wrap">
-                        <img src="img/fileexplorer.png" alt="File Explorer" class="project-img">
-                    </div>
-                    <div class="project-body">
-                        <h3>File Explorer</h3>
-                        <p>A website that allows you to browse and manage files directly within your web browser.</p>
-                        <div class="project-tags">
-                            <span>PHP</span><span>HTML</span><span>CSS</span>
-                        </div>
+                <div class="proj-item">
+                    <div class="proj-img"><img src="img/fileexplorer.png" alt="File Explorer"></div>
+                    <div class="proj-body">
+                        <div class="proj-head"><strong>File Explorer</strong></div>
+                        <p>Bestanden beheren via de browser.</p>
+                        <div class="tags"><span>PHP</span><span>HTML</span><span>CSS</span></div>
                     </div>
                 </div>
-
-                <!-- Blackjack -->
-                <div class="project-card reveal">
-                    <div class="project-img-wrap">
-                        <img src="img/blackjack.png" alt="Blackjack" class="project-img" style="object-fit: contain; background: #1e293b;">
+                <div class="proj-item">
+                    <div class="proj-img dark"><img src="img/blackjack.png" alt="Blackjack" style="object-fit:contain;"></div>
+                    <div class="proj-body">
+                        <div class="proj-head"><strong>Blackjack</strong></div>
+                        <p>Volledig Blackjack spel met OOP en dealer logic.</p>
+                        <div class="tags"><span>Java</span><span>Swing</span><span>OOP</span></div>
                     </div>
-                    <div class="project-body">
-                        <h3>Blackjack</h3>
-                        <p>A Blackjack game built for a school assignment using Java and Swing with OOP approach and dealer logic.</p>
-                        <div class="project-tags">
-                            <span>Java</span><span>Swing</span><span>OOP</span>
+                </div>
+                <div class="proj-item">
+                    <div class="proj-img"><img src="Screenshot 2026-04-17 at 15.44.19.png" alt="Eda Seker Portfolio"></div>
+                    <div class="proj-body">
+                        <div class="proj-head">
+                            <strong>Eda Seker — Portfolio</strong>
+                            <a href="" class="proj-link"><i class="ti ti-arrow-up-right"></i></a>
                         </div>
+                        <p>Portfolio website gemaakt voor een klant.</p>
+                        <div class="tags"><span>JS</span><span>HTML</span><span>CSS</span></div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
 
-    <!-- Contact -->
-    <section class="section section-alt" id="contact">
-        <div class="container">
-            <div class="section-label reveal">Contact</div>
-            <h2 class="section-title reveal">Let's work together</h2>
-            <p class="section-subtitle reveal">Feel free to reach out through any of the following channels.</p>
+    </div>
+</main>
 
-            <div class="contact-grid">
-                <a class="contact-card reveal" href="mailto:188662@novacollege.nl">
-                    <i class="ti ti-mail"></i>
-                    <h4>Email</h4>
-                    <span>188662@novacollege.nl</span>
-                </a>
-                <a class="contact-card reveal" href="tel:0638085841">
-                    <i class="ti ti-phone"></i>
-                    <h4>Phone</h4>
+<!-- CONTACT SECTION -->
+<section class="contact-section" id="contact">
+    <div class="contact-inner">
+        <div class="contact-left">
+            <p class="contact-label">Contact</p>
+            <h2 class="contact-heading">Laten we in<br>contact komen.</h2>
+            <p class="contact-sub">Open voor stageplekken, nieuwe kansen en interessante projecten.</p>
+            <a href="Yusuf CV.pdf" target="_blank" class="contact-cv-btn">Download CV <i class="ti ti-download"></i></a>
+        </div>
+        <div class="contact-right">
+            <a href="mailto:yusufs27@hotmail.com" class="contact-tile">
+                <div class="contact-tile-icon"><i class="ti ti-mail"></i></div>
+                <div>
+                    <strong>Email</strong>
+                    <span>yusufs27@hotmail.com</span>
+                </div>
+                <i class="ti ti-arrow-up-right contact-arrow"></i>
+            </a>
+            <a href="tel:0638085841" class="contact-tile">
+                <div class="contact-tile-icon"><i class="ti ti-phone"></i></div>
+                <div>
+                    <strong>Telefoon</strong>
                     <span>+31 6 38085841</span>
-                </a>
-                <a class="contact-card reveal" href="https://github.com/yusufskr" target="_blank">
-                    <i class="ti ti-brand-github"></i>
-                    <h4>GitHub</h4>
-                    <span>@yusufskr</span>
-                </a>
-                <a class="contact-card reveal" href="https://instagram.com/yusufseker__/" target="_blank">
-                    <i class="ti ti-brand-instagram"></i>
-                    <h4>Instagram</h4>
-                    <span>@yusufseker__</span>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-inner">
-                <a href="#hero" class="footer-logo">YS<span class="accent">.</span></a>
-                <div class="footer-links">
-                    <a href="#about">About</a>
-                    <a href="#experience">Experience</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
                 </div>
-                <p class="footer-copy">&copy; 2025 Yusuf Seker. All rights reserved.</p>
-            </div>
+                <i class="ti ti-arrow-up-right contact-arrow"></i>
+            </a>
+            <a href="https://github.com/yusufskr" target="_blank" class="contact-tile">
+                <div class="contact-tile-icon"><i class="ti ti-brand-github"></i></div>
+                <div>
+                    <strong>GitHub</strong>
+                    <span>@yusufskr</span>
+                </div>
+                <i class="ti ti-arrow-up-right contact-arrow"></i>
+            </a>
+            <a href="https://instagram.com/yusufseker__/" target="_blank" class="contact-tile">
+                <div class="contact-tile-icon"><i class="ti ti-brand-instagram"></i></div>
+                <div>
+                    <strong>Instagram</strong>
+                    <span>@yusufseker__</span>
+                </div>
+                <i class="ti ti-arrow-up-right contact-arrow"></i>
+            </a>
         </div>
-    </footer>
+    </div>
+</section>
 
-    <script src="script.js"></script>
+<!-- FOOTER -->
+<footer class="footer">
+    <span>© 2025 Yusuf Seker</span>
+    <span>Beverwijk, Netherlands</span>
+</footer>
+
+<script src="script.js"></script>
 </body>
-
 </html>
